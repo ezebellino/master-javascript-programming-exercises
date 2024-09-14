@@ -1,4 +1,5 @@
 function addFullNameProperty(obj) {
-  // Add your code after this line
-  
+  let newObj = { ...obj }; 
+  newObj.fullName = newObj.firstName + " " + newObj.lastName;
+  return newObj;
 }

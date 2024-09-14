@@ -1,4 +1,1 @@
-function equalsTen(num) {
-  // your code here
-  
-}
+const equalsTen = num => num === 10;
