@@ -1,6 +1,7 @@
 function squareElements(arr) {
   // your code here
-  
+  return arr.map(value => value * value);
+
 }
 
 let output = squareElements([1, 2, 3]);
